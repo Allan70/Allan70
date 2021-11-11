@@ -5,7 +5,7 @@
 **Heres something About me 😄🎮🔮** 
 
 
-My name is Allan Abere.  I am a Computer Scientist in the making who lives in Nairobi. Currently I'm working on Flutter applications and making animations for games and youtube. I am a Computer Science student at Africa Nazarene University. My goal is to effectively adn efficiently solve problems through code.
+My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently I'm working on Flutter applications and making animations for games and youtube. I am a Computer Science student at Africa Nazarene University. My goal is to effectively adn efficiently solve problems through code.
 
 What I've been up to🌴🌴:
 - Languages: Java, C#, JavaSript/TypeScript, Python, Dart, C++, 
