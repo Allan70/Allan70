@@ -5,7 +5,25 @@
 
 My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently I'm working on Flutter applications and making animations for games and youtube. I am a student at Africa Nazarene University. My goal is to effectively and efficiently solve problems through code.
 
-<h3 align='center'>🌴Tech Stack and tools🌴
+<h3 align='center'>
+📫 You can reach me on
+</h3>
+
+<p align='center'>
+  </a>&nbsp;&nbsp;
+    <a href="https://twitter.com/AbereAllan">
+    <img src="https://img.shields.io/twitter/follow/AbereAllan?style=social" />
+  </a>&nbsp;&nbsp;
+  <a href="https://mailhide.io/e/etj6SCy2">
+    <img src="https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=gmail&logoColor=white"/>     
+  </a>&nbsp;&nbsp;
+     <a href="https://www.linkedin.com/in/allan-abere-354ba71b0/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
+</p>
+
+
+<h3 align='center'>🌴My tech stack and tools🌴
  </h3>
 
 >Languages  
@@ -39,22 +57,6 @@ My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently 
 
 💬 Ask me about anything.
 
-<h3 align='center'>
-📫 You can reach me on
-</h3>
-
-<p align='center'>
-  </a>&nbsp;&nbsp;
-    <a href="https://twitter.com/AbereAllan">
-    <img src="https://img.shields.io/twitter/follow/AbereAllan?style=social" />
-  </a>&nbsp;&nbsp;
-  <a href="https://mailhide.io/e/etj6SCy2">
-    <img src="https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=gmail&logoColor=white"/>     
-  </a>&nbsp;&nbsp;
-     <a href="https://www.linkedin.com/in/allan-abere-354ba71b0/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>&nbsp;&nbsp;
-</p>
 
 <p align='center'>
   
