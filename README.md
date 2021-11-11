@@ -1,3 +1,4 @@
+
 ### Hi there, I'm Allan.😀
 
 
@@ -29,6 +30,7 @@ What I've been up to🌴🌴:
 
 > aabere70@gmail.com 💌
 
+
 ### My GitHub Summary ###
 
 
@@ -41,3 +43,6 @@ What I've been up to🌴🌴:
 
 
 ⚡ Fun fact: The first computer "bug" was an actual bug. 
+
+<p><img align="right" src="https://github.com/Allan70/Allan70/blob/main/Relaxing_3_Hour_Video_of_A_Tropical_Beach_with_Blue_Sky_White_Sand_and_Palm_Tree.gif"  width="1000" /></p>
+
