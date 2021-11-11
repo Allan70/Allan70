@@ -13,13 +13,13 @@ My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently 
 <p align='center'>
   </a>&nbsp;&nbsp;
     <a href="https://twitter.com/AbereAllan">
-    <img src="https://img.shields.io/twitter/follow/AbereAllan?style=social" />
+    <img src="https://img.shields.io/twitter/follow/AbereAllan?style=for-the-badge&logo=twitter" />
   </a>&nbsp;&nbsp;
   <a href="https://mailhide.io/e/etj6SCy2">
-    <img src="https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=gmail&logoColor=white"/>     
+    <img src="https://img.shields.io/badge/-email-2a8?style=for-the-badge&logo=gmail&logoColor=red&color=white"/>     
   </a>&nbsp;&nbsp;
      <a href="https://www.linkedin.com/in/allan-abere-354ba71b0/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=blue&color=white" />
   </a>&nbsp;&nbsp;
 </p>
 <p>
