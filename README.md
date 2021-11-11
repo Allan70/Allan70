@@ -2,9 +2,10 @@
 <h1 align='center'>Hi there, I'm Allan. <img src="https://user-images.githubusercontent.com/61727167/114547962-cecc6b80-9c67-11eb-9697-b1c5a8c8ff46.gif" width="30px">😀</h1>
 
 <h3 align='center'>Heres something About me 😄</h3>
-
+<br>
 My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently I'm working on Flutter applications and making animations for games and youtube. I am a student at Africa Nazarene University. My goal is to effectively and efficiently solve problems through code.
-
+<br>
+<br>
 <h3 align='center'>
 📫 You can reach me on
 </h3>
@@ -21,7 +22,12 @@ My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently 
     <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>&nbsp;&nbsp;
 </p>
+<p>
+  
+👯 Let me know if you want to collaborate.
 
+💬 Ask me about anything.
+</p>
 
 <h3 align='center'>🌴My tech stack and tools🌴
  </h3>
@@ -50,12 +56,6 @@ My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently 
 
 
 >    ![](https://img.shields.io/badge/-Ruby-informational?style=flat&logo=rubyonrails&logoColor=red&color=white)
-  
-
-
-👯 Let me know if you want to collaborate.
-
-💬 Ask me about anything.
 
 
 <p align='center'>
