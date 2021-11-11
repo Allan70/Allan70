@@ -1,5 +1,5 @@
 
-### Hi there, I'm Allan.😀
+<h1 align='center'> Hi there, I'm Allan.😀</h1>
 
 
 **Heres something About me 😄🎮🔮** 
