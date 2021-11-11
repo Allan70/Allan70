@@ -41,10 +41,10 @@ My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently 
 >![](https://img.shields.io/badge/-Java-informational?style=flat&logo=java&logoColor=white&color=red) ![](https://img.shields.io/badge/-Flutter-informational?style=flat&logo=flutter&logoColor=5995ED&color=white) ![](https://img.shields.io/badge/-React_Native-informational?style=flat&logo=react&logoColor=5995ED&color=white) 
 >
 >Back-End: 
->![](https://img.shields.io/badge/-MongoDB-informational?style=flat&logo=mongodb&logoColor=white&color=7AC74F) ![](https://img.shields.io/badge/-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=6C91BF) 
+>![](https://img.shields.io/badge/-MongoDB-informational?style=flat&logo=mongodb&logoColor=white&color=7AC74F) ![](https://img.shields.io/badge/-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=blue) 
 >
 >Game Development: 
->![](https://img.shields.io/badge/-Java-informational?style=flat&logo=java&logoColor=white&color=red)  ![](https://img.shields.io/badge/-JavaScript-informational?style=flat&logo=javascript&logoColor=yellow&color=black) ![](https://img.shields.io/badge/-C%23-informational?style=flat&logo=csharp&logoColor=white&color=044389)
+>![](https://img.shields.io/badge/-Java-informational?style=banner&logo=java&logoColor=white&color=red)  ![](https://img.shields.io/badge/-JavaScript-informational?style=banner&logo=javascript&logoColor=yellow&color=black) ![](https://img.shields.io/badge/-C%23-informational?style=banner&logo=csharp&logoColor=white&color=044389)
 
 <h3 align='center'>
 🌱 I’m currently learning
