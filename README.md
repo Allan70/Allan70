@@ -1,48 +1,80 @@
 
-<h1 align='center'> Hi there, I'm Allan.😀</h1>
+<h1 align='center'>Hi there, I'm Allan. <img src="https://user-images.githubusercontent.com/61727167/114547962-cecc6b80-9c67-11eb-9697-b1c5a8c8ff46.gif" width="30px">😀</h1>
+
+<h3 align='center'>Heres something About me 😄</h3>
+
+My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently I'm working on Flutter applications and making animations for games and youtube. I am a student at Africa Nazarene University. My goal is to effectively and efficiently solve problems through code.
+
+<h3 align='center'>🌴Tech Stack and tools🌴
+ </h3>
+
+>Languages  
+>  
+  ![](https://img.shields.io/badge/-Python-informational?style=flat&logo=python&logoColor=fcff4b&color=044389) ![](https://img.shields.io/badge/-C++-informational?style=flat&logo=Cplusplus&logoColor=white&color=044389)  ![](https://img.shields.io/badge/-C%23-informational?style=flat&logo=csharp&logoColor=white&color=044389) ![](https://img.shields.io/badge/-Java-informational?style=flat&logo=java&logoColor=white&color=red)  ![](https://img.shields.io/badge/-TypeScript-informational?style=flat&logo=typescript&logoColor=blue&color=black) ![](https://img.shields.io/badge/-JavaScript-informational?style=flat&logo=javascript&logoColor=yellow&color=black) ![](https://img.shields.io/badge/-Dart-informational?style=flat&logo=dart&logoColor=white&color=5995ED)
+>Web Application dev: 
+>
+![](https://img.shields.io/badge/-.NET-informational?style=flat&logo=.net&logoColor=white&color=044389) ![](https://img.shields.io/badge/-NodeJS-informational?style=flat&logo=Nodejs&logoColor=white&color=7AC74F) ![](https://img.shields.io/badge/-Django-informational?style=flat&logo=django&logoColor=5995ED&color=grey) ![](https://img.shields.io/badge/-Flask-informational?style=flat&logo=flask&logoColor=5995ED&color=grey) ![](https://img.shields.io/badge/-ExpressJS-informational?style=flat&logo=express&logoColor=5995ED&color=black) ![](https://img.shields.io/badge/-ReactJS-informational?style=flat&logo=react&logoColor=white&color=6C91BF) ![](https://img.shields.io/badge/-HTML%2FCSS-informational?style=flat&logo=html5&logoColor=orange&color=white) ![](https://img.shields.io/badge/-Sass-informational?style=flat&logo=sass&logoColor=white&color=pink) 
+>Mobile App development: 
+>
+![](https://img.shields.io/badge/-Java-informational?style=flat&logo=java&logoColor=white&color=red) ![](https://img.shields.io/badge/-Flutter-informational?style=flat&logo=flutter&logoColor=5995ED&color=white) ![](https://img.shields.io/badge/-React_Native-informational?style=flat&logo=react&logoColor=5995ED&color=white) 
+>Back-End: 
+>
+![](https://img.shields.io/badge/-MongoDB-informational?style=flat&logo=mongodb&logoColor=white&color=7AC74F) ![](https://img.shields.io/badge/-MySQL-informational?style=flat&logo=mysql&logoColor=white&color=6C91BF) 
+>Game Development: 
+>
+![](https://img.shields.io/badge/-Java-informational?style=flat&logo=java&logoColor=white&color=red)  ![](https://img.shields.io/badge/-JavaScript-informational?style=flat&logo=javascript&logoColor=yellow&color=black) ![](https://img.shields.io/badge/-C%23-informational?style=flat&logo=csharp&logoColor=white&color=044389)
+
+<h3 align='center'>
+🌱 I’m currently learning
+</h3>
+
+>    ![](https://img.shields.io/badge/-Laravel-informational?style=flat&logo=laravel&logoColor=white&color=044389)
 
 
-**Heres something About me 😄🎮🔮** 
+>    ![](https://img.shields.io/badge/-Ruby-informational?style=flat&logo=rubyonrails&logoColor=red&color=white)
+  
 
 
-My name is Allan Abere.  I am a Computer Scientist living in Nairobi. Currently I'm working on Flutter applications and making animations for games and youtube. I am a Computer Science student at Africa Nazarene University. My goal is to effectively adn efficiently solve problems through code.
+👯 Let me know if you want to collaborate.
 
-What I've been up to🌴🌴:
-- Languages: Java, C#, JavaSript/TypeScript, Python, Dart, C++, 
-- Web Application dev: .NET, NodeJS, Django, Flask, ExpressJS, ReactJS, HTML,CSS, sass
-- Mobile App development: Java, Flutter, React Native
-- Back-End: MongoDB, Postgres, MySQL
-- Game Development: Java, JavaScript, C#
+💬 Ask me about anything.
 
+<h3 align='center'>
+📫 You can reach me on
+</h3>
 
-🌱 I’m currently learning:
-- C++ 
-- C.
+<p align='center'>
+  </a>&nbsp;&nbsp;
+    <a href="https://twitter.com/AbereAllan">
+    <img src="https://img.shields.io/twitter/follow/AbereAllan?style=social" />
+  </a>&nbsp;&nbsp;
+  <a href="https://mailhide.io/e/etj6SCy2">
+    <img src="https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=gmail&logoColor=white"/>     
+  </a>&nbsp;&nbsp;
+     <a href="https://www.linkedin.com/in/allan-abere-354ba71b0/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
+</p>
 
+<p align='center'>
+  
+<h3 align='center'> My GitHub Summary </h3>
+<p align='center'>
+    <p align='center'>
+       <a aligh= href="https://github.com/allan70/allan70">
+           <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allan70&layout=compact&show_icons=true&theme=radical)]    (https://github.com/allan70/github-readme-stats" />
+</a>
+</p>
+  <p align='center'>
+ <a  href="https://github.com/allan70/allan70">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=allan70&show_icons=true&bg_color=45,white,blue" alt="Allan's GitHub Stats" />
+</a>
+  </p>
 
-👯 I’m looking to collaborate on anything to do with mobile applications and 2D games.
+ </p>
 
-💬 Ask me about Web development, Mobile development, and Game Design.
-
-📫 You can reach me on: 
-
-> [twitter🐤](https://twitter.com/AbereAllan)
-
-> aabere70@gmail.com 💌
-
-
-### My GitHub Summary ###
-
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=default)](https://github.com/anuraghazra/github-readme-stats)
-
-![Allan's GitHub stats](https://github-readme-stats.vercel.app/api?username=allan70&show_icons=true&bg_color=45,white,blue)
-
-
-
-
-
-⚡ Fun fact: The first computer "bug" was an actual bug. 
+⚡ Fun fact: The first computer "bug" was an actual bug 🐛🐜. 
 
 <p><img align="right" src="https://github.com/Allan70/Allan70/blob/main/Relaxing_3_Hour_Video_of_A_Tropical_Beach_with_Blue_Sky_White_Sand_and_Palm_Tree.gif"  width="1000" /></p>
+</p>
 
