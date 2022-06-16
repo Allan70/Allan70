@@ -39,11 +39,11 @@ My name is Allan. Currently I'm working on Flutter applications and making anima
 
 <p align='center'>
   
-<h3 align='center'> My GitHub Summary </h3>
+<h3 align='center'>GitHub Summary </h3>
 <p align='center'>
     <p align='center'>
        <a aligh= href="https://github.com/allan70/allan70">
-           <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allan70&layout=compact&show_icons=true&theme=radical)]    (https://github.com/allan70/github-readme-stats" />
+           <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allan70&layout=compact&show_icons=true&theme=radical)]    (https://github.com/allan70/github-readme-stats/" />
 </a>
 </p>
   <p align='center'>
