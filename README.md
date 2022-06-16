@@ -25,10 +25,10 @@ My name is Allan. Currently I'm working on Flutter applications and making anima
 <h3 align='center'>
 🌱 I’m currently learning
 </h3>
-<div align='center'>
+
 ![](https://img.shields.io/badge/-Laravel-informational?style=flat&logo=laravel&logoColor=white&color=044389)
 ![](https://img.shields.io/badge/-Ruby-informational?style=flat&logo=rubyonrails&logoColor=red&color=white)
-</div>
+
 
 <p align='center'>
   
