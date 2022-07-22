@@ -5,6 +5,9 @@
 <h3 align='center'>Heres something About me.</h3>
 <br>
 My name is Allan. Currently I'm working on Flutter applications and making animations for games and youtube.
+
+<br>
+<br>
 <br>
 
 <strong>Languages:</strong><br>
