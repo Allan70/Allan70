@@ -37,7 +37,8 @@ My name is Allan. Currently I'm working on Flutter applications and making anima
   
 <h3 align='center'>GitHub Summary </h3>
 <p align='center'>
-  <img height="150px" src="https://github-readme-stats.vercel.app/api?username=Allan70&hide=contribs&hide_border=true&show_icons=true&theme=github_dark"/> <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JacobJax&hide=css&hide_border=true&card_width=320&layout=compact&langs_count=7&theme=github_dark"/>
+  <img height="150px" src="https://github-readme-stats.vercel.app/api?username=Allan70&hide=contribs&hide_border=true&show_icons=true&theme=github_dark"/> 
+  <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allan70&hide=css&hide_border=true&card_width=320&layout=compact&langs_count=7&theme=github_dark"/>
  </p>
 
 ⚡ Fun fact: The first computer "bug" was an actual bug 🐛🐜. 
