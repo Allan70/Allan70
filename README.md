@@ -41,7 +41,6 @@ My name is Allan. Here are some things that I am involved with.
   <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Allan70&hide=css&hide_border=true&card_width=320&layout=compact&langs_count=7&theme=github_dark"/>
  </p>
 
-⚡ Fun fact: The first computer "bug" was an actual bug 🐛🐜. 
-
+⚡ 
 </p>
 
