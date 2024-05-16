@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Rage';
+  src: url("./fonts/natural_rough/Natural\ Rough\ Regular\ DEMO.otf");
+}
+@font-face {
+  font-family: 'Loon';
+  src: url("./fonts/04b_30/04B_30__.TTF");
+}
+@font-face {
+  font-family: 'Charge Bold';
+  src: url("./fonts/charge-vector-font/ChargeVectorBold-mLyD9.ttf");
+}
+
+body {
+  --primary-color: #ffffff;
+  --text-color: #000000;
+  --button-color: #66666E;
+  --button-background: #FFFFFF;
+  --heading: #EAD7D1;
+
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  
+  &::-webkit-scrollbar{
+    width: 0px;
+    /* background-color: transparent; */
+  }
+}
+
+
+body.dark{
+  --primary-color: #403F4C;
+  --text-color:  #E0FF4F;
+  --button-color: #1B2432;
+  --button-background: #2C2B3C;
+  --heading:  #121420;
+
+
+}
+
+body.peach{
+  --primary-color: #FE8B68;
+  --text-color: #FBFFB9;
+  --button-color: #FDD692;
+  --button-background: #EC7357;
+  --heading: #754F44;
+}
+
+body.jungle{
+  --primary-color: #E6FAFC;
+  --text-color: #353D2F;
+  --button-color: #6BA368;
+  --button-background: #515B3A;
+  --heading: #9CFC97;
+}
+
+body.tgreen{
+  --primary-color: #71B340;
+  --text-color: #11270B ;
+  --button-color: #669031;
+  --button-background: #598B2C;
+  --heading: #3C5A14;
+}

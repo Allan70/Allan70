@@ -1,0 +1,358 @@
+.port-body{
+    width: 100%;
+    overflow-x: none;
+}
+
+.bold-work:hover{
+    transition: .7s;
+}
+
+.bold-work:hover{
+    text-decoration: underline;
+    transition: .7s;
+    cursor: pointer;
+}
+
+
+/**
+* Navigation Bar
+**/
+.nav-bar{
+    position: absolute;
+    width:100%;
+    /* background-image: linear-gradient(to left, transparent , white,  transparent , white); */
+    display: flex;
+    z-index: 300;
+    color: gray;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    font-family: 'Loon', sans-serif;
+}
+
+.nav-left{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.l-nav-items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.l-nav-itm{
+    transition: .4s;
+    font-size: 1.3ch;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid var(--primary-color);
+
+}
+
+.l-nav-itm:hover{
+    cursor: pointer;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--text-color);
+    transition: .4s;
+}
+
+.nav-right{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.r-nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.r-nav-itm{
+    width: 40px;
+    height: 40px;
+}
+
+.soc-logo{
+    width: 27px;
+    height: 27px;
+    transition: .4s;
+}
+
+.soc-logo:hover{
+    margin-top: -0.1rem;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    transition: .4s;
+}
+
+.get-quote-border{
+    border: 1.3px solid white;
+    max-width: 15rem;
+    min-width: 15rem;
+    width: 15rem;
+    border-radius : 20rem;
+    display: flex;
+    flex-direction: center;
+    padding: 3px;
+    transition: .4s;
+    height: 2.3rem;
+}
+
+.get-quote-btn{
+    max-width: 15rem;
+    min-width: 15rem;
+    width: 15rem;
+    height: 2.25rem;
+    background-color: white;
+    color: black;
+    outline: white;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+.get-quote-border:hover{
+    border: 1.3px solid black;
+    transition: .2s;
+}
+
+.get-quote-btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+
+/**
+* Header of the landing page
+**/
+.port-header{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-hello{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: var(--text-color);
+    font-size: 5ch;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Loon', sans-serif;
+}
+
+.hello-txt{
+    /* padding-left: 9vw; */
+    /* height: 1.5rem; */
+    max-width: 580px;
+    border-radius: 0rem 0rem 0rem 0rem;
+    overflow: hidden;
+    border-right: .50em solid var(--text-color);
+    white-space: nowrap;
+    letter-spacing: .15em;
+    animation: 
+        typing 5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+.hello-txt:hover{
+    color: black;
+    border-right: .50em solid black;
+    cursor: text;
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width: 100%}
+}
+
+@keyframes blink-caret{
+    from, to {border-color: transparent}
+    50% {border-color: var(--text-color)}
+}
+
+.header-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 0px 0px 10rem;
+    /* background-color: black; */
+}
+
+
+.head-shot{
+    width: 100%;
+}
+
+/**
+* Programming Languages
+**/
+.code-badges{
+    justify-self: center;
+    padding: 1rem;
+    position: absolute;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 70vw; 
+    width: 70vw;
+    height: 3rem;
+    top: 75vh;
+    left: 20vw;
+    background-color: var(--primary-color);
+    box-shadow: 0px 1px 10px 1px var(--text-color);
+    border-radius: 4rem;
+    transition: .5s;
+}
+
+.code-badges:hover{
+    transform: scale(1);
+    transition: .5s;
+}
+
+
+
+.badge-logo{
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+.badge-logo:hover{
+    transition: .5s;
+    cursor: pointer;
+}
+
+.badge-cpp{
+    width: 90px;
+    height: 90px;
+    margin-top: -1.2rem;
+}
+
+.badge-go{
+    width: 90px;
+    height: 90px;
+    margin-top: -1.2rem;
+}
+
+
+.about{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-p{
+    margin: 10vw;
+    font-size: 5ch;
+    font-weight: 500;
+}
+
+.proj-working{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw;
+    height: 100vh;
+}
+
+.proj-tit{
+    font-size: 6ch;
+    text-align: center;
+    font-family: 'Charge Bold';
+}
+
+@media (max-width: 1700px) {
+    .l-nav-items{
+        display: none;
+    }
+    .r-nav-items{
+        display: none;
+    }
+    .nav-left{
+        justify-content: space-between;
+    }
+    .nav-right{
+        justify-content: space-between;
+        padding-right: 0;
+        position: relative;
+    }
+    .get-quote-border{
+        right: 0;
+        top: 0;
+        margin: 0;
+        margin-top: -1rem;
+        margin-right: 1rem;
+        justify-self: flex-end;
+        float: right;
+        position: absolute;
+
+    }
+
+    .port-header{
+        flex-direction: column-reverse;
+    }
+
+    .header-img{
+        border-radius: 0;
+        background-position: center;
+    }
+    .hello-txt{
+        margin: 1rem;
+        
+    }
+
+    .code-badges{
+        justify-self: center;
+        padding: 1rem;
+        position: absolute;
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 70vw; 
+        width: 70vw;
+        height: 3rem;
+        top: 75vh;
+        left: 50vw;
+        right: 50vw;
+        background-color: var(--primary-color);
+        box-shadow: 0px 1px 10px 1px var(--text-color);
+        border-radius: 4rem;
+        transition: .5s;
+        overflow-x: scroll;
+        overflow-y: hidden;
+
+        &::-webkit-scrollbar{
+            width: 1px;
+        }
+    }
+    .badge-itm{
+        margin: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .hello-txt{
+        font-size: .7ch;
+        top: 0;
+    }
+}
