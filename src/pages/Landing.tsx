@@ -9,6 +9,10 @@ import instagram from "../images/socials/instagram-svgrepo-com.svg"
 import linkedin from "../images/socials/linkedin-rounded-svgrepo-com.svg"
 import twitter from "../images/socials/twitter-154-svgrepo-com.svg"
 
+import njiaLanding from "../images/Projects/njia-landing.jpeg"
+import pantherLanding from "../images/Projects/panther-video-player.jpeg"
+import blogLanding from "../images/Projects/BlogNest/Landing.png"
+
 import ToggleButton  from "../components/Landing/ToggleButton"
 
 export default function landing() {
@@ -58,8 +62,9 @@ export default function landing() {
       {/* About */}
       <div className="about">
         <div className="about-p">
-          I am a software engineer working on websites 🌍, applications 📱 and games 🎮. <span className="bold-work">I love my work</span> 💟 and I love creating projects that engage and empower my users. I look forward to having a discussion with you ⚡
+          I'm a passionate software engineer specializing in web development 🌐, mobile applications 📱, and game design 🎮. With a strong commitment to crafting projects that engage and empower users, I bring creativity and technical expertise to every project.        
         </div>
+
       </div>
 
       {/* Projects */}
@@ -72,24 +77,68 @@ export default function landing() {
             <div className="proj-itm-1">
               <div className="proj-itm-img">
                 {/* Add Project 1 image here */}
-                <img src="" alt="" className="proj-1"/>
+                <img src={njiaLanding} alt="" className="proj-1 proj-img"/>
+              </div>
+              <div className="proj-itm-p">
+                <div className="proj-itm-t">
+                  Njia
+                </div>
+                <div className="proj-itm-par">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil minus inventore eveniet cum magni molestias eligendi recusandae natus aliquam alias?
+                </div>
+                <div className="proj-itm-btn">
+                  <div className="proj-view-btn">
+                    View Project
+                  </div>
+                </div>
+                
               </div>
             </div>
             <div className="proj-itm-1">
               <div className="proj-itm-img">
                 {/* Add Project 2 image here */}
-                <img src="" alt="" className="proj-2"/>
+                <img src={blogLanding} alt="" className="proj-2 proj-img"/>
+              </div>
+              <div className="proj-itm-p">
+                <div className="proj-itm-t">
+                  BlogNest
+                </div>
+                <div className="proj-itm-par">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil minus inventore eveniet cum magni molestias eligendi recusandae natus aliquam alias?
+                </div>
+                <div className="proj-itm-btn">
+                  <div className="proj-view-btn">
+                    View Project
+                  </div>
+                </div>
+                
               </div>
             </div>
-            <div className="proj-itm-3">
+            <div className="proj-itm-1">
               <div className="proj-itm-img">
                {/* Add Project 3 image here */}
-                <img src="" alt="" className="proj-2"/>
+                <img src={pantherLanding} alt="" className="proj-3 proj-img"/>
+              </div>
+              <div className="proj-itm-p">
+                <div className="proj-itm-t">
+                  Panther Radio
+                </div>
+                <div className="proj-itm-par">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil minus inventore eveniet cum magni molestias eligendi recusandae natus aliquam alias?
+                </div>
+                <div className="proj-itm-btn">
+                  <div className="proj-view-btn">
+                    View Project
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
-          <div className="proj-more-btn">
-            View More
+          <div className="proj-more-ctn">
+            <div className="proj-more-btn">
+              View More
+            </div>
           </div>
         </div>
       </div>
