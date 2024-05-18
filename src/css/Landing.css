@@ -173,9 +173,16 @@
 }
 
 .hello-txt:hover{
-    color: black;
     border-right: .50em solid black;
-    cursor: text;
+    cursor: pointer;
+}
+
+.my-services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes typing {
@@ -258,6 +265,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: 'Loon', sans-serif;
+    font-size: 1ch;
+    padding: 5rem;
+    padding-left: 0;
 }
 
 .about-p{
@@ -290,6 +301,7 @@
     align-items: center;
     justify-content: space-evenly;
     overflow-x: scroll;
+    font-family: 'Loon', sans-serif;
 
     &::-webkit-scrollbar{
         height: 1px;
@@ -299,7 +311,7 @@
 .proj-itm-1{
     width: 25vw;
     /* min-height: 400px; */
-    border: 1px solid black;
+    border: 1px solid rgb(158, 155, 155);
     border-radius: .5rem;
     transition: .4s;
 }
@@ -308,6 +320,7 @@
     cursor: pointer;
     background-color: rgb(255, 255, 255);
     color: black;
+    text-wrap: wrap;
     transition: .4s;
 }
 
@@ -316,12 +329,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-wrap: wrap;
 }
 
 .proj-itm-t{
-    font-size: 4ch;
+    font-size: 3ch;
     font-weight: 700;
     margin-bottom: 1rem;
+    text-wrap: wrap;
 }
 .proj-itm-img{
     width: 100%;
@@ -351,6 +366,7 @@
     padding: 1rem;
     margin-top: 1rem;
     transition: .4s;
+    
 }
 
 .proj-view-btn:hover{
@@ -367,6 +383,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
+    font-family: 'Loon', sans-serif;
 }
 
 .proj-more-btn{
@@ -389,6 +406,150 @@
     color: black;
     transition: .4s;
     cursor: pointer;
+}
+
+.my-services-tit{
+    font-family: 'Charge Bold';
+    font-size: 5ch;
+}
+
+.my-services-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4rem;
+}
+.service-itm{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    border: 1px solid rgb(196, 196, 196);
+    margin: 1rem;
+    align-items: center;
+    padding: 1.4rem;
+    border-radius: 1rem;
+    transition: .4s;
+    font-family: 'Loon', sans-serif;
+    font-size: 1.2ch;
+}
+
+.service-itm:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: .4s;
+}
+
+.service-itm-pa{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.9ch;
+}
+.service-itm-img{
+    width: 40px;
+}
+.service-itm-logo{
+    background-color: rgb(219, 218, 218);
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4rem;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10rem;
+    /* margin: 1rem; */
+    /* background-color: black; */
+}
+
+.contact-tit{
+    font-weight: 700;
+    font-size: 6ch;
+    font-family: 'Charge Bold';
+}
+
+.contact-p{
+    display: flex;
+    flex-direction: row;
+}
+
+.ins-cont-m{
+    font-family: 'Loon', sans-serif;
+    padding: 2rem;
+}
+
+.submit-form-btn{
+    background-color: black;
+    width: 80%;
+    height: 5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3ch;
+}
+
+.form-get-contact{
+    width: 100%;
+    padding: 2rem;
+}
+
+.form-inp{
+    width: 25rem;
+    height: 2rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.form-inp-txt{
+    width: 100%;
+    max-width: 25rem;
+    min-width: 25rem;
+    height: 9rem;
+    min-height: 9rem;
+    max-height: 9rem;
+    margin: 1rem;  
+    padding: 1rem; 
+}
+
+.submit-form-btn{
+    margin: 1rem;
+    transition: .4s;
+    border: 3px solid black;
+}
+
+.submit-form-btn:hover{
+    background-color: rgb(241, 241, 241);
+    color: black;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.ins-txt{
+    font-size: 4ch;
+}
+
+.ins-cont-m p{
+    font-size: 2ch;
+}
+
+.form-inp{
+    color: black;
+}
+.form-inp-txt{
+    font-family: sans-serif;
+    font-size: 2ch;
 }
 
 @media (max-width: 1700px) {
@@ -467,12 +628,49 @@
     .proj-itms{
         height: 50vh;
         flex-direction: column;
-        /* justify-content: space-around; */
         align-items: space-around;
     }
     .proj-itm-1{
         margin: 1rem;
-        width: 50vw;
+        width: 70vw;
         height: 70vh;
+    }
+    .service-itm{
+        min-width: 11rem;
+    }
+    .contact-p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .form-get-contact{
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    input{
+        width: 80%;
+    }
+
+    textarea{
+        width: 80%;
+    }
+
+    .contact-p{
+        padding: 1rem;
+    }
+
+    .ins-txt{
+        padding: 1rem;
+        font-size: 2.5ch;
+    }
+
+    .ins-cont-m{
+        font-size: 1.5ch;
     }
 }

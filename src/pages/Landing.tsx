@@ -15,6 +15,19 @@ import blogLanding from "../images/Projects/BlogNest/Landing.png"
 
 import ToggleButton  from "../components/Landing/ToggleButton"
 
+import AI from "../images/Services/ai-platform-svgrepo-com.svg"
+import API from "../images/Services/api-1-svgrepo-com (1).svg"
+import APIInterface from "../images/Services/api-interface-svgrepo-com.svg"
+import Pipelines from "../images/Services/azurepipelines-svgrepo-com.svg"
+import Consultant from "../images/Services/consultant-efficiency-marketing-svgrepo-com.svg"
+import Database from "../images/Services/database-labs-svgrepo-com.svg"
+import Documentation from "../images/Services/documentation-svgrepo-com (1).svg"
+import Drawer from "../images/Services/drawer-qa-svgrepo-com.svg"
+import Quality from "../images/Services/quality-research-svgrepo-com.svg"
+import Web from "../images/Services/web-design-svgrepo-com.svg"
+import Xcode from "../images/Services/xcode-svgrepo-com.svg"
+
+
 export default function landing() {
   return (
     <div className="port-body">
@@ -49,7 +62,7 @@ export default function landing() {
             </div>
           </div>
           <div className="get-quote-border">
-            <div className="get-quote-btn">
+            <div className="get-quote-btn" onClick={()=>{}}>
               Talk to me
             </div>
           </div>
@@ -148,8 +161,114 @@ export default function landing() {
         <div className="my-services-tit">
           Services
         </div>
-        <div className="my-services-p">
+        <div className="my-services-items">
           {/* Display a list of the services you offer here */}
+          
+          {/* Service Item */}
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={AI} alt="" className="service-itm-img" />
+            </div>
+            <div className="service-itm-pa">
+            Developing AI and ML models and integrating 
+            them into applications to provide advanced 
+            features like predictive analytics, 
+            recommendation systems, and natural 
+            language processing.
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={API} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Designing, developing, and integrating APIs to enable 
+            different software systems to communicate and share data.
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={APIInterface} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Implementing continuous integration/continuous deployment 
+            (CI/CD) pipelines, managing cloud infrastructure 
+            (AWS, Azure, Google Cloud), and automating development 
+            processes to enhance deployment and scalability.
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={Pipelines} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Building software solutions tailored 
+            to the specific needs of clients, 
+            which may include web applications, 
+            mobile apps, desktop applications, 
+            and enterprise software.
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={Consultant} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Providing ongoing support and maintenance for 
+            existing software solutions, including bug 
+            fixing, performance optimization, and updates.
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={Database} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Designing, implementing, and managing databases to ensure efficient data storage, retrieval, and manipulation using SQL or NoSQL databases.            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={Documentation} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Creating comprehensive documentation for software applications, including user manuals, API documentation, and technical specifications.
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={Drawer} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Conducting various levels of software testing (unit testing, integration testing, system testing, user acceptance testing) to ensure the quality and reliability of the software.
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={Quality} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+              Offering expert advice on software architecture, technology stack selection, project planning, and best practices for software development.
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={Web} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Developing and maintaining websites and web applications, including both front-end (UI/UX design, HTML, CSS, JavaScript) and back-end development (server-side logic, databases, APIs).
+            </div>
+          </div>
+          <div className="service-itm">
+            <div className="service-itm-logo">
+              <img src={Xcode} alt="" className="service-itm-img"/>
+            </div>
+            <div className="service-itm-pa">
+            Creating applications for mobile platforms such as iOS and Android using technologies like Swift, Kotlin, Flutter, and React Native.
+            </div>
+          </div>
+
+
+          {/*  */}
         </div>
       </div>
 
@@ -159,12 +278,41 @@ export default function landing() {
       </div>
 
       {/* Contact */}
-      <div className="contact-me">
+      <div className="contact-me" id="contact">
         <div className="contact-tit">
           Contact
         </div>
         <div className="contact-p">
           {/* Conatact info goes here */}
+          <div className="ins-cont-m">
+            <h1 className="ins-txt">Interested in collaborating on a project?</h1>
+            <p>Let me know. <br/> Write me a message.</p>
+          </div>
+          <form className="form-get-contact">
+            <div className="form-names">
+              <div className="first-name">
+                <input type="text" className="fname form-inp" placeholder="First name"/>
+              </div>
+              <div className="last-name">
+                <input type="text" className="lname form-inp" placeholder="Lats name"/>
+              </div>
+            </div>
+            <div className="form-email-dob">
+              <div className="email">
+                <input type="text" className="email form-inp" placeholder="Email"/>
+              </div>
+              <div className="mail-tite">
+                <input type="text" className="mess-tit form-inp" placeholder="Message title"/>
+              </div>
+              <div className="mail-message">
+                <textarea className="message form-inp-txt" placeholder="Enter your message here"></textarea>
+              </div>
+              <div className="submit-form-btn">
+                Send
+              </div>
+            </div>
+          
+          </form>
         </div>
       </div>
     </div>
