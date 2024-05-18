@@ -286,7 +286,7 @@ export default function landing() {
           {/* Conatact info goes here */}
           <div className="ins-cont-m">
             <h1 className="ins-txt">Interested in collaborating on a project?</h1>
-            <p>Let me know. <br/> Write me a message.</p>
+            <p>Let me know. <br/></p>
           </div>
           <form className="form-get-contact">
             <div className="form-names">
@@ -294,7 +294,7 @@ export default function landing() {
                 <input type="text" className="fname form-inp" placeholder="First name"/>
               </div>
               <div className="last-name">
-                <input type="text" className="lname form-inp" placeholder="Lats name"/>
+                <input type="text" className="lname form-inp" placeholder="Last name"/>
               </div>
             </div>
             <div className="form-email-dob">
