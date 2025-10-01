@@ -27,7 +27,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     font-size: 25px;
 }
 
@@ -156,7 +156,7 @@
     color: var(--text-color);
     font-size: 5ch;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
 }
 
 .hello-txt{
@@ -267,7 +267,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     font-size: 18px;
     padding: 5rem;
     padding-left: 0;
@@ -291,7 +291,7 @@
 .proj-tit{
     font-size: 6ch;
     text-align: center;
-    font-family: 'Alan';
+    font-family: 'Alan Sans';
 }
 
 
@@ -303,7 +303,7 @@
     align-items: center;
     justify-content: space-evenly;
     overflow-x: scroll;
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
 
     &::-webkit-scrollbar{
         height: 1px;
@@ -411,7 +411,7 @@
 }
 
 .my-services-tit{
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     font-size: 5ch;
 }
 
@@ -432,7 +432,7 @@
     padding: 1.4rem;
     border-radius: 1rem;
     transition: .4s;
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     font-size: 16px;
 }
 
@@ -478,7 +478,7 @@
 .contact-tit{
     font-weight: 700;
     font-size: 6ch;
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
 }
 
 .contact-p{
@@ -487,7 +487,7 @@
 }
 
 .ins-cont-m{
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
     padding: 2rem;
 }
 
@@ -513,7 +513,7 @@
     margin: 1rem;
     padding: 1rem;
     font-size: 2.4ch;
-    font-family: 'Alan', Arial, sans-serif;
+    font-family: 'Alan Sans', Arial, sans-serif;
 }
 
 .form-inp-txt{
@@ -531,7 +531,7 @@
     margin: 1rem;
     transition: .4s;
     border: 3px solid black;
-    font-family: 'Alan', sans-serif;
+    font-family: 'Alan Sans', sans-serif;
 }
 
 .submit-form-btn:hover{
