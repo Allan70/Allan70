@@ -3,11 +3,11 @@ import "../css/Landing.css"
 import PLanguages from "../components/PLanguages"
 import Header from "../components/Header"
 
-import facebook from "../images/socials/facebook-svgrepo-com (1).svg"
+// import facebook from "../images/socials/facebook-svgrepo-com (1).svg"
 import github from "../images/socials/github-round-svgrepo-com.svg"
 import instagram from "../images/socials/instagram-svgrepo-com.svg"
 import linkedin from "../images/socials/linkedin-rounded-svgrepo-com.svg"
-import twitter from "../images/socials/twitter-154-svgrepo-com.svg"
+// import twitter from "../images/socials/twitter-154-svgrepo-com.svg"
 
 import njiaLanding from "../images/Projects/njia-landing.jpeg"
 import pantherLanding from "../images/Projects/panther-video-player.jpeg"
