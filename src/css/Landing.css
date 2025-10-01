@@ -330,7 +330,7 @@
 .proj-itm-1:hover{
     cursor: pointer;
     background-color: rgb(255, 255, 255);
-    color: black;
+    /* color: black; */
     text-wrap: wrap;
     transition: .4s;
 }
