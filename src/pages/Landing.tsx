@@ -26,6 +26,7 @@ import Drawer from "../images/Services/drawer-qa-svgrepo-com.svg"
 import Quality from "../images/Services/quality-research-svgrepo-com.svg"
 import Web from "../images/Services/web-design-svgrepo-com.svg"
 import Xcode from "../images/Services/xcode-svgrepo-com.svg"
+import { Link } from "react-router-dom"
 
 
 export default function landing() {
@@ -46,24 +47,26 @@ export default function landing() {
         <div className="nav-right">
           <div className="r-nav-items">
             <div className="r-nav-itm">
-              <img src={twitter} alt="" className="twitter soc-logo" />
+              <Link to="https://linkedin.com/in/allan-abere-354ba71b0">
+                <img src={instagram} alt="" className="instagram soc-logo"/>
+              </Link>
             </div>
             <div className="r-nav-itm">
-              <img src={facebook} alt="" className="facebook soc-logo"/>
-            </div>
-            <div className="r-nav-itm">
-              <img src={instagram} alt="" className="instagram soc-logo"/>
-            </div>
-            <div className="r-nav-itm">
+              <Link to="https://linkedin.com/in/allan-abere-354ba71b0">
               <img src={linkedin} alt="" className="linkedin soc-logo"/>
+              </Link>
             </div>
             <div className="r-nav-itm">
-              <img src={github} alt="" className="github soc-logo"/>
+              <Link to="https://github.com/Allan70">
+                <img src={github} alt="" className="github soc-logo"/>
+              </Link>
             </div>
           </div>
           <div className="get-quote-border">
             <div className="get-quote-btn" onClick={()=>{}}>
-              Talk to me
+              <a href="#contact-tit" className="get-quote-btn" style={{ textDecoration: "none"}}>
+                Talk to me
+              </a>
             </div>
           </div>
         </div>
@@ -82,7 +85,7 @@ export default function landing() {
 
       {/* Projects */}
       <div className="proj-working">
-        <div className="proj-tit">Projects Under Developemnt</div>
+        <div className="proj-tit">Projects Under Development</div>
         {/* Projects Container */}
         <div className="projects-ctn">
           {/* Project Items go here */}
@@ -279,13 +282,13 @@ export default function landing() {
 
       {/* Contact */}
       <div className="contact-me" id="contact">
-        <div className="contact-tit">
+        <div className="contact-tit" id="contact-tit">
           Contact
         </div>
         <div className="contact-p">
           {/* Conatact info goes here */}
           <div className="ins-cont-m">
-            <h1 className="ins-txt">Interested in collaborating on a project?</h1>
+            <h1 className="ins-txt">Do you want to talk to me?</h1>
             <p>Let me know. <br/></p>
           </div>
           <form className="form-get-contact">

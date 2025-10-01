@@ -27,7 +27,8 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-    font-family: 'Loon', sans-serif;
+    font-family: 'Alan', sans-serif;
+    font-size: 25px;
 }
 
 .nav-left{
@@ -111,7 +112,7 @@
     min-width: 15rem;
     width: 15rem;
     height: 2.25rem;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     outline: white;
     border-radius: 10rem;
@@ -155,7 +156,7 @@
     color: var(--text-color);
     font-size: 5ch;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-    font-family: 'Loon', sans-serif;
+    font-family: 'Alan', sans-serif;
 }
 
 .hello-txt{
@@ -204,6 +205,7 @@
 
 
 .head-shot{
+    object-fit: contain;
     width: 100%;
 }
 
@@ -265,15 +267,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Loon', sans-serif;
-    font-size: 1ch;
+    font-family: 'Alan', sans-serif;
+    font-size: 18px;
     padding: 5rem;
     padding-left: 0;
 }
 
 .about-p{
     margin: 10vw;
-    font-size: 5ch;
+    font-size: 24px;
     font-weight: 500;
 }
 
@@ -289,7 +291,7 @@
 .proj-tit{
     font-size: 6ch;
     text-align: center;
-    font-family: 'Charge Bold';
+    font-family: 'Alan';
 }
 
 
@@ -301,7 +303,7 @@
     align-items: center;
     justify-content: space-evenly;
     overflow-x: scroll;
-    font-family: 'Loon', sans-serif;
+    font-family: 'Alan', sans-serif;
 
     &::-webkit-scrollbar{
         height: 1px;
@@ -409,7 +411,7 @@
 }
 
 .my-services-tit{
-    font-family: 'Charge Bold';
+    font-family: 'Alan', sans-serif;
     font-size: 5ch;
 }
 
@@ -430,8 +432,8 @@
     padding: 1.4rem;
     border-radius: 1rem;
     transition: .4s;
-    font-family: 'Loon', sans-serif;
-    font-size: 1.2ch;
+    font-family: 'Alan', sans-serif;
+    font-size: 16px;
 }
 
 .service-itm:hover{
@@ -476,7 +478,7 @@
 .contact-tit{
     font-weight: 700;
     font-size: 6ch;
-    font-family: 'Charge Bold';
+    font-family: 'Alan', sans-serif;
 }
 
 .contact-p{
@@ -485,7 +487,7 @@
 }
 
 .ins-cont-m{
-    font-family: 'Loon', sans-serif;
+    font-family: 'Alan', sans-serif;
     padding: 2rem;
 }
 
@@ -511,7 +513,7 @@
     margin: 1rem;
     padding: 1rem;
     font-size: 2.4ch;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Alan', Arial, sans-serif;
 }
 
 .form-inp-txt{
@@ -529,6 +531,7 @@
     margin: 1rem;
     transition: .4s;
     border: 3px solid black;
+    font-family: 'Alan', sans-serif;
 }
 
 .submit-form-btn:hover{

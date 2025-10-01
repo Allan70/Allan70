@@ -1,14 +1,6 @@
 @font-face {
-  font-family: 'Rage';
-  src: url("./fonts/natural_rough/Natural\ Rough\ Regular\ DEMO.otf");
-}
-@font-face {
-  font-family: 'Loon';
-  src: url("./fonts/04b_30/04B_30__.TTF");
-}
-@font-face {
-  font-family: 'Charge Bold';
-  src: url("./fonts/charge-vector-font/ChargeVectorBold-mLyD9.ttf");
+  font-family: 'Alan';
+  src: url("./fonts/Alan_Sans/AlanSans-VariableFont_wght.ttf");
 }
 
 body {
