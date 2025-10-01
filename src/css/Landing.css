@@ -367,6 +367,7 @@
 }
 
 .proj-view-btn{
+    border: 1px solid white;
     background-color: black;
     color: white;
     min-width: 5rem;
@@ -398,6 +399,7 @@
 }
 
 .proj-more-btn{
+    border: 1px solid white;
     background-color: black;
     color: white;
     display: flex;
@@ -408,7 +410,7 @@
     height: 2rem;
     padding: 1rem;
     border-radius: .4rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     transition: .4s;
 }
 
@@ -540,7 +542,8 @@
 .submit-form-btn{
     margin: 1rem;
     transition: .4s;
-    border: 3px solid black;
+    border: 1px solid white;
+    /* border: 3px solid black; */
     font-family: 'Alan Sans', sans-serif;
 }
 
