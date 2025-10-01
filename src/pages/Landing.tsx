@@ -288,10 +288,19 @@ export default function landing() {
         <div className="contact-p">
           {/* Conatact info goes here */}
           <div className="ins-cont-m">
-            <h1 className="ins-txt">Do you want to talk about code, software or topics related to IT?</h1>
-            <p>You can message me from here. <br/></p>
+            <h1 className="ins-txt">Looking for interesting reads and possible dad jokes?</h1>
+            <p className="ins-p">Subscribe to my newsletter <br/><span style={{fontSize: "14px"}}>(These are memes I think are funny LOL😁).</span></p>
+        
+            <div className="mail-tite">
+              <input type="email" className="mess-tit form-inp" placeholder="Newsletter Email" />
+            </div>
+            <div className="submit-form-btn">
+                Subscribe
+            </div>
           </div>
-          <form className="form-get-contact">
+          <form className="form-get-contact ins-cont-m">
+            <h1 className="ins-txt">Do you want to talk about code, software, IT or whatever?</h1>
+            <p className="ins-p">You can reach me from here. <br/></p>
             <div className="form-names">
               <div className="first-name">
                 <input type="text" className="fname form-inp" placeholder="First name"/>

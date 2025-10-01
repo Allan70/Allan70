@@ -478,8 +478,9 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     margin-top: 10rem;
+    
     /* margin: 1rem; */
     /* background-color: black; */
 }
@@ -691,6 +692,10 @@
     .ins-txt{
         padding: 1rem;
         font-size: 2.5ch;
+    }
+    .ins-p{
+        padding: 1rem;
+        font-size: 18px;
     }
 
     .ins-cont-m{
