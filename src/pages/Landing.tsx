@@ -294,7 +294,7 @@ export default function landing() {
             <div className="mail-tite">
               <input type="email" className="mess-tit form-inp" placeholder="Newsletter Email" />
             </div>
-            <div className="submit-form-btn">
+            <div className="submit-form-btn submit-form-btn-news">
                 Subscribe
             </div>
           </div>

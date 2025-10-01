@@ -701,4 +701,8 @@
     .ins-cont-m{
         font-size: 1.5ch;
     }
+
+    .submit-form-btn-news{
+        width: 92%;
+    }
 }
