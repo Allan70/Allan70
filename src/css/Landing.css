@@ -652,15 +652,17 @@
         margin-top: 1rem;
         top: 0;
     }
+    .proj-working{
+        height: fit-content;
+    }
     .proj-itms{
-        height: 50vh;
         flex-direction: column;
         align-items: space-around;
     }
     .proj-itm-1{
         margin: 1rem;
         width: 70vw;
-        height: 70vh;
+        height: fit-content;
     }
     .service-itm{
         min-width: 11rem;
