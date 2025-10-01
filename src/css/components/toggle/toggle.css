@@ -16,6 +16,7 @@
     border: none;
     padding: 0;
     margin-left: 2rem;
+    cursor: pointer; 
     /* justify-content: center; */
 }
 

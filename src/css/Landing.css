@@ -151,10 +151,12 @@
     text-align: left;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     font-weight: 500;
     color: var(--text-color);
     font-size: 5ch;
+    padding: 0;
+    margin: 0;
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     font-family: 'Alan Sans', sans-serif;
 }
@@ -165,12 +167,18 @@
     max-width: 580px;
     border-radius: 0rem 0rem 0rem 0rem;
     overflow: hidden;
-    border-right: .50em solid var(--text-color);
+    border-right: .55em solid var(--text-color);
     white-space: nowrap;
-    letter-spacing: .15em;
+    letter-spacing: .1em;
     animation: 
-        typing 5s steps(40, end),
-        blink-caret .75s step-end infinite;
+        typing 3s steps(16, end),
+        blink-caret .45s step-end infinite;
+    max-width: fit-content;
+    font-size: 45px;
+    font-weight: 700;
+    display: flex;
+    align-items: baseline;
+    padding: 0;
 }
 
 .hello-txt:hover{
@@ -222,7 +230,7 @@
     max-width: 70vw; 
     width: 70vw;
     height: 3rem;
-    top: 75vh;
+    top: 65vh;
     left: 20vw;
     background-color: var(--primary-color);
     box-shadow: 0px 1px 10px 1px var(--text-color);
@@ -268,7 +276,8 @@
     align-items: center;
     text-align: center;
     font-family: 'Alan Sans', sans-serif;
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 700;
     padding: 5rem;
     padding-left: 0;
 }
@@ -593,8 +602,7 @@
         background-position: center;
     }
     .hello-txt{
-        margin: 1rem;
-        
+        margin-top: 3rem;
     }
 
     .code-badges{
@@ -602,11 +610,12 @@
         padding: 1rem;
         position: absolute;
         display: flex; 
+        flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-evenly;
         max-width: 70vw; 
         width: 70vw;
-        height: 3rem;
+        height: fit-content;
         top: 75vh;
         left: 50vw;
         right: 50vw;
@@ -614,20 +623,29 @@
         box-shadow: 0px 1px 10px 1px var(--text-color);
         border-radius: 4rem;
         transition: .5s;
+        padding-top: 14px;
+        padding-bottom: 0;
+        overflow: hidden;
         overflow-x: scroll;
-        overflow-y: hidden;
 
         &::-webkit-scrollbar{
             width: 1px;
         }
+        display: none;
     }
+    
     .badge-itm{
-        margin: 1rem;
+        margin: 1.5rem;
         margin-top: 0;
         margin-bottom: 0;
+        width: 44px;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
     }
+
     .hello-txt{
-        font-size: .7ch;
+        margin-top: 1rem;
         top: 0;
     }
     .proj-itms{
