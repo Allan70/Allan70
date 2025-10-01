@@ -39,7 +39,7 @@ function App() {
       <Route path='/shop/login' element={<Login />}/>
       <Route path='/shop/signup' element={<Signup />}/>
       <Route path='/shop/2FA' element={<FactorAuth/>}/>
-      <Route path='/shop/item/:id' element={<Item />} />
+      <Route path='/shop/item/:id' element={<Item name={'My IItem'} itm_id={0} img_url={'test'} apk_url={'test'} />} />
 
       {/* Add blog pages */}
       <Route path="/blogs/" element={<Blogs />}/>
