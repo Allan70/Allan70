@@ -26,10 +26,11 @@ import Drawer from "../images/Services/drawer-qa-svgrepo-com.svg"
 import Quality from "../images/Services/quality-research-svgrepo-com.svg"
 import Web from "../images/Services/web-design-svgrepo-com.svg"
 import Xcode from "../images/Services/xcode-svgrepo-com.svg"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 
 
-export default function landing() {
+export default function Landing() {
+  const navigator = useNavigate()
   return (
     <div className="port-body">
       <div className="nav-bar">
@@ -38,10 +39,11 @@ export default function landing() {
             <ToggleButton />
           </div>
           <div className="l-nav-items">
-            <div className="l-nav-itm">Shop</div>
-            <div className="l-nav-itm">Games</div>
-            <div className="l-nav-itm">Blog</div>
-            <div className="l-nav-itm">Resume</div>
+            {/* <div className="l-nav-itm" onClick={()=>navigator("/")}>Home</div> */}
+            <div className="l-nav-itm" onClick={()=>navigator("/shop")}>Shop</div>
+            <div className="l-nav-itm" onClick={()=>navigator("/games")}>Games</div>
+            <div className="l-nav-itm" onClick={()=>navigator("/blog")}>Blog</div>
+            <div className="l-nav-itm" onClick={()=>navigator("/resume")}>Resume</div>
           </div>
         </div>
         <div className="nav-right">

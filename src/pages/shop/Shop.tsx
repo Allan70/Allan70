@@ -1,7 +1,13 @@
 import Item from "./Item";
+import "../../css/Landing.css"
 
+// import facebook from "../images/socials/facebook-svgrepo-com (1).svg
+// import twitter from "../images/socials/twitter-154-svgrepo-com.svg"
+import ToggleButton  from "../../components/Landing/ToggleButton"
+import {useNavigate } from "react-router-dom"
 export default function Shop() {
   // Sample shop items (update with actual data)
+  const navigator = useNavigate();
   const shop_item_arr = [
     { name: "Item 1", itm_id: 1, img_url: "item1.jpg", apk_url: "item1.apk" },
     { name: "Item 2", itm_id: 2, img_url: "item2.jpg", apk_url: "item2.apk" },
@@ -9,6 +15,28 @@ export default function Shop() {
   ];
 
   return (
+        <div className="port-body">
+      <div className="nav-bar">
+        <div className="nav-left">
+          <div className="theme-toggle">
+            <ToggleButton />
+          </div>
+          <div className="l-nav-items">
+              <div className="l-nav-items">
+            <div className="l-nav-itm" onClick={()=>navigator("/")}>Home</div>
+            <div className="l-nav-itm" onClick={()=>navigator("/shop")}>Shop</div>
+            <div className="l-nav-itm" onClick={()=>navigator("/games")}>Games</div>
+            <div className="l-nav-itm" onClick={()=>navigator("/blog")}>Blog</div>
+            <div className="l-nav-itm" onClick={()=>navigator("/resume")}>Resume</div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Page Title  */}
+      <div>Shop</div>
+
+      {/* Page content */}
     <div className="shop-body">
       <div className="shop-title">Shop</div>
       <div className="shop-sub-tit">
@@ -63,6 +91,7 @@ export default function Shop() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

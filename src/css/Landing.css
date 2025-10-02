@@ -75,23 +75,26 @@
     justify-content: space-evenly;
     width: 100%;
 }
-.r-nav-itm{
+.r-nav-itm .soc-logo{
     width: 40px;
     height: 40px;
+    /* box-shadow: 5px 0px 4px 5px black; */
+    background-color: rgba(0, 0, 0, 0.055);
 }
 
 .soc-logo{
     width: 27px;
     height: 27px;
-    transition: .4s;
+    margin: 1rem;
+    transition: .2s;
 }
 
 .soc-logo:hover{
-    margin-top: -0.1rem;
+    margin-top: 0.1rem;
     cursor: pointer;
-    width: 30px;
-    height: 30px;
-    transition: .4s;
+    width: 45px;
+    height: 45px;
+    transition: .2s;
 }
 
 .get-quote-border{

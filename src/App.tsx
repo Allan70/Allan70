@@ -3,7 +3,8 @@ import {Routes, Route} from 'react-router-dom'
 import Landing from './pages/Landing'
 import Shop from './pages/shop/Shop'
 import Resume from './pages/Resume'
-import Blog from './pages/blogs/Blog'
+import Games from './pages/Games'
+import Blog from './pages/blogs/Blogs'
 import Login from './pages/shop/Login.tsx'
 import Signup from './pages/shop/Signup.tsx'
 import FactorAuth from './pages/shop/FactorAuth'
@@ -32,8 +33,9 @@ function App() {
     <Routes>
       <Route path='/' element={<Landing />}/>
       <Route path='/shop' element={<Shop />}/>
-      <Route path='/blog' element={<Blog />}/>
+      <Route path='/blog' element={<Blogs />}/>
       <Route path='/resume' element={<Resume />}/>
+      <Route path='/games' element={<Games />}/>
 
       {/* Add shop pages */}
       <Route path='/shop/login' element={<Login />}/>
