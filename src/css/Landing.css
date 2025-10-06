@@ -333,7 +333,8 @@
 
 .proj-itm-1:hover{
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    /* background-color: rgb(143, 143, 143); */
     /* color: black; */
     text-wrap: wrap;
     transition: .4s;
@@ -371,7 +372,7 @@
 }
 
 .proj-view-btn{
-    border: 1px solid white;
+    border: 1px solid rgb(0, 0, 0);
     background-color: black;
     color: white;
     min-width: 5rem;
