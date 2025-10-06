@@ -8,7 +8,8 @@ export default function Header(props : {HeadShot: string}) {
       backgroundImage: `url(${props.HeadShot})`,
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'contain',
-      backgroundSize: 'cover'
+      backgroundSize: 'cover',
+      // width: "100%"
       }}>
       {/* <img src={HeadShot} alt="A picture of Allan" className="head-shot"/> */}
     </div>

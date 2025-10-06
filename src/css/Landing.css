@@ -1,6 +1,7 @@
 .port-body{
-    width: 100%;
-    overflow-x: none;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .bold-work:hover{
@@ -574,6 +575,10 @@
 }
 
 @media (max-width: 1700px) {
+    .nav-bar{
+        width: 100%;
+        margin: 0; 
+    }
     .l-nav-items{
         display: none;
     }
@@ -588,16 +593,25 @@
         padding-right: 0;
         position: relative;
     }
+    .get-quote-border a{
+        width: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+    }
     .get-quote-border{
-        right: 0;
-        top: 0;
-        margin: 0;
+        /* right: 0;
+        top: 0; */
+        /* margin: 0;
         margin-top: -1rem;
         margin-right: 1rem;
         justify-self: flex-end;
         float: right;
         position: absolute;
-
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 45%;  */
+        display: none;
     }
 
     .port-header{
@@ -605,11 +619,12 @@
     }
 
     .header-img{
-        border-radius: 0;
-        background-position: center;
+        border-radius: 0 0 0 50px ; 
+        background-position:center;
     }
     .hello-txt{
         margin-top: 3rem;
+        font-size: 25px;
     }
 
     .code-badges{
@@ -660,18 +675,24 @@
     }
     .proj-itms{
         flex-direction: column;
+        width: 100vw;
         align-items: space-around;
     }
     .proj-itm-1{
         margin: 1rem;
-        width: 70vw;
+        width: 80vw;
         height: fit-content;
     }
     .service-itm{
-        min-width: 11rem;
+      width: 70vw;
     }
+    .contact-me{
+        width: 80vw;
+    }
+    
     .contact-p{
         display: flex;
+        width: 90%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -686,15 +707,16 @@
     }
 
     input{
-        width: 80%;
+        width: 70%;
     }
 
     textarea{
-        width: 80%;
+        width: 70%;
     }
 
     .contact-p{
-        padding: 1rem;
+        /* padding: 1rem; */
+        margin: 1rem;
     }
 
     .ins-txt{
@@ -708,9 +730,16 @@
 
     .ins-cont-m{
         font-size: 1.5ch;
+        width: 90%;
     }
 
     .submit-form-btn-news{
         width: 92%;
+    }
+
+    .form-inp, .form-inp-txt{
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
     }
 }
